@@ -233,6 +233,23 @@ header {
         }
 }
 
+.paperz-collum {
+    .container {
+      
+
+        .paperz {
+                 
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            font-size: 24px;
+            margin-top: 300px;
+          
+
+        }
+    }
+}
+
 .showcase {
     background-color: #F0EFE9;
 
