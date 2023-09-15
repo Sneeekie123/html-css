@@ -218,17 +218,39 @@ header .menu .main-menu .btn-login {
   }
 }
 
-.parent {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: auto auto auto auto;
-  grid-template-areas: "box1 box1 box2" "box3 box6 box2" "box3 box6 box4" "box5 box6 box4";
+.item1 {
+  grid-area: header;
 }
-.parent .box {
-  background-color: #f5f5f5;
-  padding: 20px;
-  border: 1px solid black;
+
+.item2 {
+  grid-area: menu;
+}
+
+.item3 {
+  grid-area: main;
+}
+
+.item4 {
+  grid-area: right;
+}
+
+.item5 {
+  grid-area: footer;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-areas: "menu header header main main" "menu header header main main" "menu footer footer right right" "menu footer footer right right";
+  gap: 10px;
+  background-color: #2196F3;
+  padding: 10px;
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
   text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
 }
 
 .showcase {
