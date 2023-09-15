@@ -218,6 +218,16 @@ header .menu .main-menu .btn-login {
   }
 }
 
+.fetures .container .grid-template {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto auto auto auto;
+  grid-template-areas: "accounting business-advice startup-business" "accounting financal-advice risk-managment";
+  text-align: center;
+  border: 1px solid black;
+  padding-top: 300px;
+}
+
 .showcase {
   background-color: #F0EFE9;
 }
@@ -337,14 +347,4 @@ header .menu .main-menu .btn-login {
 .project-and-case .container .center-content {
   margin-top: 50px;
   margin-bottom: 90px;
-}
-
-.fetures .container .grid-template {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: auto auto auto auto;
-  grid-template-areas: "accounting business-advice startup-business" "accounting financal-advice risk-managment";
-  text-align: center;
-  border: 1px solid black;
-  padding-top: 300px;
 }/*# sourceMappingURL=style.css.map */
