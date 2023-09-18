@@ -238,7 +238,7 @@ header {
       
         display: none;
 
-        @media (min-width: 768px){
+        @media (min-width: 992px){
             display: block;
 
         .paperz {
@@ -247,8 +247,10 @@ header {
             align-items: center;
             justify-content: space-between;
             margin-top: 76px;
+            margin-bottom: 76px;
             color: #100f0f;
-
+            margin-left: 40px;
+            margin-right: 40px;
             }
           
 
@@ -266,27 +268,86 @@ header {
     .item3 { grid-area: main; }
     .item4 { grid-area: right; }
     .item5 { grid-area: footer; }
+    .item6 { grid-area: button; }
 
 
     display: grid;
     grid-template-areas:
-      'menu header header main main'
-      'menu header header main main'
-      "menu footer footer right right"
-      "menu footer footer right right";
-    gap: 10px;
-    background-color: #2196F3;
-    padding: 10px;
-  }
+      'menu menu  header main '
+      'menu menu  header main '
+      "menu menu  footer right "
+      "menu menu  footer right ";
+    
+    
+    background-color:    #ffffff ;
+    border: 2px solid #F0EFE9;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    
+    display: none;
+
+    @media (min-width: 992px) {
+        display: grid;
+    }
+    
+    div {
+        
+        text-align: left;
+        padding: 10px 0px;
+        font-size: 30px;
+    }
 
 
-.grid-container > div {
-    background-color: rgba(255, 255, 255, 0.8);
-    text-align: center;
-    padding: 20px 0;
-    font-size: 30px;
-}
+    img {
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+
+
+
+    h2 {
+        font-size: 22px;
+        font-family: "DM Sans" , sans-serif;
+        font-weight: 700;
+        margin-bottom: 20px;
+        padding-right: 50px;
+    }
+
+
+    h4 {
+        font-size: 16px;
+        padding-right: 50px;
+    }
+
+    .item2 {
+        padding-right: 20%;
+
+        
+
+        h4 {
+            font-family: 'Inter';
+            font-size: 18px;
+            color: #F94D1C;
+            margin-bottom: 30px;
+        }
+
+        h2 {
+            font-size: 45px;
+            
+        }
+
+        button {
+            margin-top: -30px;
+            border: 1px solid #000000;
+            margin-right: 40px;            
+        }   
+
+    }
+
+}    
   
+
+
 
 .showcase {
     background-color: #F0EFE9;
