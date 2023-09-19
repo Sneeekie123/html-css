@@ -228,6 +228,7 @@ header .menu .main-menu .btn-login {
   border: 2px solid #F0EFE9;
   padding-top: 60px;
   padding-bottom: 60px;
+  border-spacing: 60px;
   display: none;
 }
 .grid-container .item1 {
@@ -291,6 +292,9 @@ header .menu .main-menu .btn-login {
   margin-right: 40px;
 }
 
+.about-company .container {
+  display: flex;
+}
 .showcase {
   background-color: #F0EFE9;
   position: relative;
