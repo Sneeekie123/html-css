@@ -273,6 +273,8 @@ header .menu .main-menu .btn-login {
 .grid-container h4 {
   font-size: 16px;
   padding-right: 50px;
+  font-weight: 300;
+  margin-right: 30px;
 }
 .grid-container .item2 {
   padding-right: 20%;
@@ -294,7 +296,55 @@ header .menu .main-menu .btn-login {
 
 .about-company .container {
   display: flex;
+  margin-top: 110px;
 }
+.about-company .container .samantha {
+  position: relative;
+}
+.about-company .container .samantha .samantha-blue {
+  border: 1px solid black;
+  width: 368px;
+  height: 180px;
+  left: -56px;
+  top: -220px;
+  position: relative;
+  background-color: #BEEBFF;
+}
+.about-company .container .samantha .samantha-blue h3 {
+  margin-top: 30px;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: "Dm Sans", sans-serif;
+  margin-left: 25px;
+}
+.about-company .container .samantha .samantha-blue h3 .founder {
+  color: #F94D1C;
+}
+.about-company .container .samantha .samantha-blue h4 {
+  font-weight: 300;
+  font-size: 16px;
+  margin-left: 25px;
+}
+.about-company .container .about {
+  margin-left: 200px;
+}
+.about-company .container .about h3 {
+  color: #F94D1C;
+  font-size: 18px;
+  font-weight: 400;
+}
+.about-company .container .about h2 {
+  margin-top: 25px;
+  font-size: 45px;
+  font-weight: 700;
+  font-family: "DM Sans" sans-serif;
+}
+.about-company .container .about h4 {
+  margin-top: 25px;
+  font-size: 16px;
+  font-weight: 300;
+}
+
 .showcase {
   background-color: #F0EFE9;
   position: relative;

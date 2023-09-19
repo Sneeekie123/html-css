@@ -317,6 +317,8 @@ header {
     h4 {
         font-size: 16px;
         padding-right: 50px;
+        font-weight: 300;
+        margin-right: 30px;
     }
 
     .item2 {
@@ -351,37 +353,75 @@ header {
     
     .container {
         display: flex;
+        margin-top: 110px;
 
         .samantha {
+            position: relative;
             
-            i {
+            .image {
+                
 
+            }
+
+            .samantha-blue{
+                border: 1px solid black;
+                width: 368px;
+                height: 180px;
+                
+                
+                left: -56px;
+                top: -220px;
+                position: relative;
+                background-color: #BEEBFF;
+                
                 h3 {
+                    margin-top: 30px;
+                    font-size: 20px;
+                    font-weight: 700;
+                    font-family: 'Dm Sans', sans-serif;
+                    margin-left: 25px;
+                    
+                    
+                    .founder {
+                        color: #F94D1C;
+                    }
 
                 }
 
                 h4 {
-
+                    font-weight: 300;
+                    font-size: 16px;
+                    margin-left: 25px;
                 }
+
             }
         }
 
 
         .about {
 
+            margin-left: 200px;
             
             h3 {
-
+                color: #F94D1C;
+                font-size: 18px;
+                font-weight: 400;
 
             }
 
             h2 {
-
+                margin-top: 25px;
+                font-size: 45px;
+                font-weight: 700;
+                font-family: 'DM Sans' sans-serif;
 
             }
 
             h4 {
-
+                margin-top: 25px;
+                font-size: 16px;
+                font-weight: 300;
+                
 
             }
         }
