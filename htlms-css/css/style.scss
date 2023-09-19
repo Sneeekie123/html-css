@@ -424,11 +424,69 @@ header {
                 
 
             }
+
+            p {
+                margin-top: 150px;
+                display: inline-block;
+            }
+
+            .intro {
+                margin-left: 15px;
+                font-size: 16px;
+                font-weight: 600;
+            }
+
+            .btn-round {
+                
+                margin-left: 40px;
+                border-radius: 50%;
+                background-color: #ffffff;
+                border: 1px solid #191919 ;
+                width: 58px;
+                height: 58px;
+                text-align: center;
+                padding: 16px;
+                
+                
+                &:hover {
+                    background-color: #191919;
+                    border: 1px solid #191919;
+                    color: #F0EFE9;
+                }
+            }
+                
+            
         }
     }
 
 }
 
+
+.our-services {
+    
+    
+    .headline {
+        border: 1px solid black;
+        position: relative;
+
+        h3 {
+            font-family: 'Inter';
+            font-size: 18px;
+            color: #F94D1C;
+            margin-bottom: 30px;
+            
+        }
+
+        h2 {
+            margin-top: 25px;
+            font-size: 45px;
+            font-weight: 700;
+            font-family: 'DM Sans' sans-serif;
+            margin-right: 700px;
+        }
+    }
+    
+}
 
 
 
