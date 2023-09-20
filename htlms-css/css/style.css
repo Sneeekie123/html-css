@@ -224,6 +224,8 @@ header .menu .main-menu .btn-login {
 .fetures {
   border: 2px solid #F0EFE9;
   margin: 0 200px;
+  padding-right: 30px;
+  padding-left: 60px;
 }
 .fetures .features-grid {
   display: grid;
@@ -649,4 +651,4 @@ header .menu .main-menu .btn-login {
   outline: none;
   border: 1px solid rgba(25, 25, 25, 0.1019607843);
   margin-right: 20px;
-}
+}/*# sourceMappingURL=style.css.map */
