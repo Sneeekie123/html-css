@@ -362,10 +362,6 @@ header {
         .samantha {
             position: relative;
             
-            .image {
-                
-
-            }
 
             .samantha-blue{
                 border: 1px solid black;
@@ -502,9 +498,6 @@ header {
             gap: 30px;
 
             
-            
-            
-            
             .circle-arrow {
                 border: none;
                
@@ -519,8 +512,7 @@ header {
                     color: #F0EFE9;
                     
                 }
-                
-                
+                     
             }
             
 
@@ -591,11 +583,42 @@ header {
                     
                     border-width: 30px;
                     margin-top: 20px;
-                }
-                
+                }  
             }
+
+        
+        
         }
+
+        .browse {
+            display: flex;
+            justify-content: center;
+            .browse-services {
+                align-items: center;
+                padding: 15px 30px;
+                font-weight: 600;
+                border-radius: 35px;
+                font-size: 16px;
+                margin-top: 45px;
+        
+                    i {
+                        margin-left: 10px;
+                    }
+        
+                    &:hover {
+                        background-color: #191919;
+                        border: 1px solid #F9D783;
+                        color: #ffffff;
+                        
+                        
+                    }  
+                    
+                }
+            
+        }
+       
     }
+
 }
 
 
@@ -685,6 +708,7 @@ header {
     }
 
 }
+
 
 .project-and-case {
     .container {

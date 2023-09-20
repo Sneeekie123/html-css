@@ -460,6 +460,26 @@ header .menu .main-menu .btn-login {
   border-width: 30px;
   margin-top: 20px;
 }
+.our-services .headline .browse {
+  display: flex;
+  justify-content: center;
+}
+.our-services .headline .browse .browse-services {
+  align-items: center;
+  padding: 15px 30px;
+  font-weight: 600;
+  border-radius: 35px;
+  font-size: 16px;
+  margin-top: 45px;
+}
+.our-services .headline .browse .browse-services i {
+  margin-left: 10px;
+}
+.our-services .headline .browse .browse-services:hover {
+  background-color: #191919;
+  border: 1px solid #F9D783;
+  color: #ffffff;
+}
 
 .showcase {
   background-color: #F0EFE9;
