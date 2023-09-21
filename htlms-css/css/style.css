@@ -223,9 +223,26 @@ header .menu .main-menu .btn-login {
 
 .fetures {
   border: 2px solid #F0EFE9;
-  margin: 0 200px;
-  padding-right: 30px;
-  padding-left: 60px;
+}
+@media (min-width: 992px) {
+  .fetures {
+    margin-right: 20px;
+    margin-left: 20px;
+    padding-left: 30px;
+    padding-bottom: 60px;
+  }
+}
+@media (min-width: 1450px) {
+  .fetures {
+    margin-right: 5%;
+    margin-left: 5%;
+  }
+}
+@media (min-width: 1750px) {
+  .fetures {
+    margin-right: 12%;
+    margin-left: 12%;
+  }
 }
 .fetures .features-grid {
   display: grid;
@@ -377,6 +394,7 @@ header .menu .main-menu .btn-login {
 .our-services {
   background-color: #F0EFE9;
   padding: 120px;
+  position: relative;
 }
 .our-services .headline .top-headline h3 {
   font-family: "Inter";
@@ -389,19 +407,33 @@ header .menu .main-menu .btn-login {
   font-size: 45px;
   font-weight: 700;
   font-family: "DM Sans" sans-serif;
-  margin-right: 60%;
+}
+@media (min-width: 1550px) {
+  .our-services .headline .top-headline h2 {
+    margin-right: 60%;
+  }
 }
 .our-services .headline .content-boxes {
-  display: flex;
   margin-top: 20px;
   gap: 30px;
+}
+@media (min-width: 1385px) {
+  .our-services .headline .content-boxes {
+    display: flex;
+    margin-top: 20px;
+    gap: 30px;
+  }
 }
 .our-services .headline .content-boxes .circle-arrow {
   border: none;
   font-size: 45px;
-  margin-left: 80%;
-  margin-top: 20px;
   background-color: transparent;
+}
+@media (min-width: 1385px) {
+  .our-services .headline .content-boxes .circle-arrow {
+    margin-left: 80%;
+    margin-top: 20px;
+  }
 }
 .our-services .headline .content-boxes .circle-arrow:hover {
   background-color: transparent;
@@ -481,6 +513,12 @@ header .menu .main-menu .btn-login {
   background-color: #191919;
   border: 1px solid #F9D783;
   color: #ffffff;
+}
+.our-services .headline .wavy-lines-middle {
+  position: absolute;
+  bottom: 50px;
+  right: 0;
+  bottom: 0;
 }
 
 .showcase {
@@ -651,4 +689,4 @@ header .menu .main-menu .btn-login {
   outline: none;
   border: 1px solid rgba(25, 25, 25, 0.1019607843);
   margin-right: 20px;
-}/*# sourceMappingURL=style.css.map */
+}
