@@ -521,6 +521,46 @@ header .menu .main-menu .btn-login {
   bottom: 0;
 }
 
+.why-choose-us .container {
+  display: flex;
+  justify-content: space-around;
+  border: 1px solid black;
+  font-family: "DM Sans" sans-serif;
+}
+.why-choose-us .container .headline {
+  border: 1px solid blue;
+}
+.why-choose-us .container .headline h3 {
+  font-family: "Inter";
+  font-size: 18px;
+  color: #F94D1C;
+  margin-bottom: 25px;
+}
+.why-choose-us .container .headline h2 {
+  font-size: 45px;
+  font-weight: 700;
+  margin-bottom: 50px;
+}
+.why-choose-us .container .headline .image-text {
+  display: flex;
+}
+.why-choose-us .container .headline .image-text i {
+  justify-content: start;
+}
+.why-choose-us .container .headline .image-text h4 {
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 50px;
+}
+.why-choose-us .container .headline .image-text h4 p {
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 300;
+}
+.why-choose-us .container .picture-2-ladies {
+  border: 1px solid orange;
+}
+
 .showcase {
   background-color: #F0EFE9;
   position: relative;
