@@ -382,6 +382,7 @@ header {
 
         .samantha {
             position: relative;
+           
             
 
             .samantha-blue{
@@ -676,20 +677,40 @@ header {
 }
 
 .why-choose-us {
+    z-index: auto;
     position: relative;
-    
-   
+
+    .gray-box {
+        position: absolute;
+        display: inline-flex;  
+        width: 70%;
+        height: 425px;
+        background-color: #F0EFE9;
+        z-index: 1;       
+        bottom: 0;
+        right: 0;
+
+    }
+
+    .parent {
+        z-index: 2;
+        margin-top: 60px;
+        margin-left: auto;
+        .two-ladies {
+            display: block;
+        }        
+    }  
     .container {
-        position: relative;
-        display: flex;
         
-        
+        display: flex;  
         font-family: 'DM Sans' sans-serif;
         margin-top: 50px;
+    
         .headline {
-            
-            
-            margin-right: 70px;
+            z-index: 1;
+            width: 600px;
+            background-color: #ffffff;
+
 
             h3 {
                 font-family: 'Inter';
@@ -703,7 +724,7 @@ header {
                 padding-right: 100px;
                 font-size: 45px;
                 font-weight: 700;
-                margin-bottom: 50px;
+                margin-bottom: 0px;
 
             }
 
@@ -712,7 +733,7 @@ header {
                 padding: 0px;
                 
                 .icons {
-                    margin-right: 30px;
+                    margin-right: 0px;
                     border-radius: 50%;
                     background-color: #ffffff;
                     border: 1px solid #F0EFE9 ;
@@ -721,7 +742,6 @@ header {
                     text-align: center;
                     padding: 12px; 
                 }
-
 
                 h4 {
                     font-size: 22px;
@@ -738,9 +758,6 @@ header {
                 }
             }
         }
-        .girls {
-            margin-top: 30px;
-        }   
     }
 }
 

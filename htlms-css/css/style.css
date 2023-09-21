@@ -522,16 +522,36 @@ header .menu .main-menu .btn-login {
 }
 
 .why-choose-us {
+  z-index: auto;
   position: relative;
 }
+.why-choose-us .gray-box {
+  position: absolute;
+  display: inline-flex;
+  width: 70%;
+  height: 425px;
+  background-color: #F0EFE9;
+  z-index: 1;
+  bottom: 0;
+  right: 0;
+}
+.why-choose-us .parent {
+  z-index: 2;
+  margin-top: 60px;
+  margin-left: auto;
+}
+.why-choose-us .parent .two-ladies {
+  display: block;
+}
 .why-choose-us .container {
-  position: relative;
   display: flex;
   font-family: "DM Sans" sans-serif;
   margin-top: 50px;
 }
 .why-choose-us .container .headline {
-  margin-right: 70px;
+  z-index: 1;
+  width: 600px;
+  background-color: #ffffff;
 }
 .why-choose-us .container .headline h3 {
   font-family: "Inter";
@@ -543,13 +563,13 @@ header .menu .main-menu .btn-login {
   padding-right: 100px;
   font-size: 45px;
   font-weight: 700;
-  margin-bottom: 50px;
+  margin-bottom: 0px;
 }
 .why-choose-us .container .headline .image-text {
   padding: 0px;
 }
 .why-choose-us .container .headline .image-text .icons {
-  margin-right: 30px;
+  margin-right: 0px;
   border-radius: 50%;
   background-color: #ffffff;
   border: 1px solid #F0EFE9;
@@ -567,9 +587,6 @@ header .menu .main-menu .btn-login {
   font-size: 16px;
   font-weight: 300;
   margin-top: 10px;
-}
-.why-choose-us .container .girls {
-  margin-top: 30px;
 }
 
 .showcase {
