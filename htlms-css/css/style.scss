@@ -676,14 +676,20 @@ header {
 }
 
 .why-choose-us {
+    position: relative;
+    
    
     .container {
+        position: relative;
         display: flex;
-        justify-content: space-around;
-        border: 1px solid black;
+        
+        
         font-family: 'DM Sans' sans-serif;
+        margin-top: 50px;
         .headline {
-            border: 1px solid blue;
+            
+            
+            margin-right: 70px;
 
             h3 {
                 font-family: 'Inter';
@@ -694,48 +700,47 @@ header {
             }
 
             h2 {
-                
+                padding-right: 100px;
                 font-size: 45px;
                 font-weight: 700;
                 margin-bottom: 50px;
-                
 
             }
 
             .image-text {
-                display: flex;
+               
+                padding: 0px;
                 
-
-                i {
-                   justify-content: start;
-                   
+                .icons {
+                    margin-right: 30px;
+                    border-radius: 50%;
+                    background-color: #ffffff;
+                    border: 1px solid #F0EFE9 ;
+                    width: 70px;
+                    height: 70px;
+                    text-align: center;
+                    padding: 12px; 
                 }
 
 
                 h4 {
                     font-size: 22px;
                     font-weight: 700;
-                    margin-bottom: 50px;
                     
     
                     p {
                         font-family: 'Inter';
                         font-size: 16px;
                         font-weight: 300;
-        
+                        margin-top: 10px;
+                        
                     }  
-    
                 }
-
             }
-
         }
-
-
-        .picture-2-ladies {
-            border: 1px solid orange;
-        }
-        
+        .girls {
+            margin-top: 30px;
+        }   
     }
 }
 

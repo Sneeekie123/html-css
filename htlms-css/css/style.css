@@ -521,14 +521,17 @@ header .menu .main-menu .btn-login {
   bottom: 0;
 }
 
+.why-choose-us {
+  position: relative;
+}
 .why-choose-us .container {
+  position: relative;
   display: flex;
-  justify-content: space-around;
-  border: 1px solid black;
   font-family: "DM Sans" sans-serif;
+  margin-top: 50px;
 }
 .why-choose-us .container .headline {
-  border: 1px solid blue;
+  margin-right: 70px;
 }
 .why-choose-us .container .headline h3 {
   font-family: "Inter";
@@ -537,28 +540,36 @@ header .menu .main-menu .btn-login {
   margin-bottom: 25px;
 }
 .why-choose-us .container .headline h2 {
+  padding-right: 100px;
   font-size: 45px;
   font-weight: 700;
   margin-bottom: 50px;
 }
 .why-choose-us .container .headline .image-text {
-  display: flex;
+  padding: 0px;
 }
-.why-choose-us .container .headline .image-text i {
-  justify-content: start;
+.why-choose-us .container .headline .image-text .icons {
+  margin-right: 30px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  border: 1px solid #F0EFE9;
+  width: 70px;
+  height: 70px;
+  text-align: center;
+  padding: 12px;
 }
 .why-choose-us .container .headline .image-text h4 {
   font-size: 22px;
   font-weight: 700;
-  margin-bottom: 50px;
 }
 .why-choose-us .container .headline .image-text h4 p {
   font-family: "Inter";
   font-size: 16px;
   font-weight: 300;
+  margin-top: 10px;
 }
-.why-choose-us .container .picture-2-ladies {
-  border: 1px solid orange;
+.why-choose-us .container .girls {
+  margin-top: 30px;
 }
 
 .showcase {
