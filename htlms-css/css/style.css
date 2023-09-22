@@ -718,6 +718,9 @@ header .menu .main-menu .btn-login {
   margin-bottom: 90px;
 }
 
+.meet-our-team .background-yellow .experience-team {
+  display: flex;
+}
 .newsletter {
   display: none;
   position: relative;
