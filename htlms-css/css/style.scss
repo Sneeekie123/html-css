@@ -106,6 +106,28 @@ html, body {
     align-items: center;
 }
 
+.browse-services {
+    align-items: center;
+    padding: 15px 30px;
+    font-weight: 600;
+    border-radius: 35px;
+    font-size: 16px;
+    margin-top: 45px;
+
+        i {
+            margin-left: 10px;
+        }
+
+        &:hover {
+            background-color: #191919;
+            border: 1px solid #F9D783;
+            color: #ffffff;
+            
+            
+        }  
+        
+    }
+
 
 header {
     background-color: #F0EFE9;
@@ -640,27 +662,7 @@ header {
         .browse {
             display: flex;
             justify-content: center;
-            .browse-services {
-                align-items: center;
-                padding: 15px 30px;
-                font-weight: 600;
-                border-radius: 35px;
-                font-size: 16px;
-                margin-top: 45px;
-        
-                    i {
-                        margin-left: 10px;
-                    }
-        
-                    &:hover {
-                        background-color: #191919;
-                        border: 1px solid #F9D783;
-                        color: #ffffff;
-                        
-                        
-                    }  
-                    
-                }
+
             
         }
 
@@ -1084,6 +1086,34 @@ header {
     
     }
     
+}
+
+.article-and-news {
+
+    .headline {
+
+        h3 {
+            font-family: 'Inter';
+            font-size: 18px;
+            color: #F94D1C;
+            margin-bottom: 25px;
+            margin-top: 125px;
+
+        }
+        
+        h2 {
+            display: flex;
+            justify-content: space-between;
+            font-size: 45px;
+            font-weight: 700;
+            
+            .browse-services {
+
+            }
+
+            
+        }
+    }
 }
 
 

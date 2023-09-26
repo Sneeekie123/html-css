@@ -97,6 +97,23 @@ html, body {
   align-items: center;
 }
 
+.browse-services {
+  align-items: center;
+  padding: 15px 30px;
+  font-weight: 600;
+  border-radius: 35px;
+  font-size: 16px;
+  margin-top: 45px;
+}
+.browse-services i {
+  margin-left: 10px;
+}
+.browse-services:hover {
+  background-color: #191919;
+  border: 1px solid #F9D783;
+  color: #ffffff;
+}
+
 header {
   background-color: #F0EFE9;
   padding: 16px;
@@ -498,22 +515,6 @@ header .menu .main-menu .btn-login {
   display: flex;
   justify-content: center;
 }
-.our-services .headline .browse .browse-services {
-  align-items: center;
-  padding: 15px 30px;
-  font-weight: 600;
-  border-radius: 35px;
-  font-size: 16px;
-  margin-top: 45px;
-}
-.our-services .headline .browse .browse-services i {
-  margin-left: 10px;
-}
-.our-services .headline .browse .browse-services:hover {
-  background-color: #191919;
-  border: 1px solid #F9D783;
-  color: #ffffff;
-}
 .our-services .headline .wavy-lines-middle {
   position: absolute;
   bottom: 50px;
@@ -831,6 +832,19 @@ header .menu .main-menu .btn-login {
   margin-bottom: 120px;
 }
 
+.article-and-news .headline h3 {
+  font-family: "Inter";
+  font-size: 18px;
+  color: #F94D1C;
+  margin-bottom: 25px;
+  margin-top: 125px;
+}
+.article-and-news .headline h2 {
+  display: flex;
+  justify-content: space-between;
+  font-size: 45px;
+  font-weight: 700;
+}
 .newsletter {
   display: none;
   position: relative;
