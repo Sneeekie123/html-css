@@ -191,6 +191,9 @@ header .intro .links a {
   margin: 7px;
   position: relative;
 }
+header .intro .links a:hover {
+  font-weight: 500;
+}
 header .intro .links a.active {
   font-weight: 500;
 }
@@ -261,6 +264,8 @@ header .connect .background-lines {
   background-color: #F0EFE9;
   margin-top: 60px;
   padding-top: 140px;
+  padding-bottom: 100px;
+  margin-bottom: 120px;
 }
 .information .background .headline {
   text-align: center;
@@ -279,3 +284,101 @@ header .connect .background-lines {
   border-radius: 25px;
   border: none;
 }
+.information .message-boxes .your-message {
+  border: 1px solid black;
+  padding-bottom: 160px;
+}
+.information .btn-yellow {
+  display: block;
+  margin: 0 auto;
+  margin-top: 45px;
+  width: 80%;
+  text-align: center;
+}
+
+.map {
+  width: 100%;
+}
+
+.footer {
+  background-color: #0E1021;
+  padding-top: 100px;
+  padding-bottom: 90px;
+  position: relative;
+  z-index: 0;
+  border-bottom: 1px solid #444443;
+}
+.footer .wavy-lines-footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  background-color: transparent;
+}
+.footer .footer-container {
+  display: flex;
+  justify-content: space-evenly;
+  color: #ffffff;
+}
+.footer .footer-container a {
+  display: block;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  text-decoration: none;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+.footer .footer-container a:hover {
+  text-decoration: underline;
+  color: #DAD9D3;
+}
+.footer .footer-container h3 {
+  font-family: "DM Sans", sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 40px;
+  margin-top: 7px;
+}
+.footer .footer-container .crito {
+  width: 40%;
+}
+.footer .footer-container .crito p {
+  margin-right: 20%;
+  margin-top: 30px;
+}
+.footer .footer-container .company {
+  width: 15%;
+  margin-left: 20px;
+}
+.footer .footer-container .help {
+  width: 15%;
+  margin-left: 20px;
+}
+.footer .footer-container .resources {
+  width: 15%;
+  margin-left: 20px;
+}
+.footer .footer-container .link {
+  width: 15%;
+  margin-left: 20px;
+}
+
+.icons-and-copyright {
+  background-color: #0E1021;
+  color: #ffffff;
+}
+.icons-and-copyright .copyright {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 35px;
+  padding-bottom: 15px;
+}
+.icons-and-copyright a {
+  color: #ffffff;
+  font-size: 1.3rem;
+  margin-left: 10px;
+}
+.icons-and-copyright a:hover {
+  color: #7c7c7c;
+}/*# sourceMappingURL=contact.style.css.map */
