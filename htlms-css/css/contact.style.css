@@ -79,6 +79,7 @@ header .container {
   align-items: center;
   justify-content: space-between;
   gap: 70px;
+  padding: 16px;
 }
 header .container .menu-bars {
   font-size: 25px;
@@ -221,8 +222,9 @@ header .connect .background-lines {
 
 .call-sites .container {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   margin-top: 110px;
+  padding: 0px;
 }
 .call-sites .container .icons {
   margin-left: 60px;
@@ -236,16 +238,44 @@ header .connect .background-lines {
   border: 1px solid #F0EFE9;
   width: 420px;
   padding-top: 45px;
+  padding-bottom: 50px;
+  margin-left: 0px;
 }
 .call-sites .container .call-us {
   justify-content: start;
   border: 1px solid #F0EFE9;
   width: 420px;
   padding-top: 45px;
+  padding-bottom: 50px;
 }
 .call-sites .container .email-us {
   justify-content: start;
   border: 1px solid #F0EFE9;
   width: 420px;
   padding-top: 45px;
+  padding-bottom: 50px;
+  margin-right: 0px;
+}
+
+.information .background {
+  background-color: #F0EFE9;
+  margin-top: 60px;
+  padding-top: 140px;
+}
+.information .background .headline {
+  text-align: center;
+}
+.information .message-boxes {
+  display: block;
+}
+.information .message-boxes form {
+  margin: 0 auto;
+  margin-top: 10px;
+  width: 80%;
+}
+.information .message-boxes input {
+  width: 100%;
+  padding: 12px;
+  border-radius: 25px;
+  border: none;
 }

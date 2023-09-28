@@ -86,6 +86,7 @@ header {
         align-items: center;
         justify-content: space-between;
         gap: 70px;
+        padding: 16px;
 
         .menu-bars {
             font-size: 25px;
@@ -274,8 +275,10 @@ header {
 .call-sites {
     .container {
         display: flex;
-        justify-content: space-between;
+        justify-content: center;
         margin-top: 110px;
+        padding: 0px;
+        
 
         .icons {
             margin-left: 60px;
@@ -291,7 +294,8 @@ header {
             border: 1px solid #F0EFE9;
             width: 420px;
             padding-top: 45px;
-
+            padding-bottom: 50px;
+            margin-left: 0px;
             
             
         }
@@ -301,6 +305,7 @@ header {
             border: 1px solid #F0EFE9;
             width: 420px;
             padding-top: 45px;
+            padding-bottom: 50px;
         }
 
         .email-us {
@@ -308,7 +313,63 @@ header {
             border: 1px solid #F0EFE9;
             width: 420px;
             padding-top: 45px;
+            padding-bottom: 50px;
+            margin-right: 0px;
         }
 
     }
+}
+
+.information {
+
+    .background {
+        background-color: #F0EFE9;
+        margin-top: 60px;
+        padding-top: 140px;
+        
+        
+        
+        .headline {
+            text-align: center;
+            
+            
+        }
+
+
+    }
+
+    .message-boxes {
+        
+        display: block;
+        
+        
+
+        form {
+            margin: 0 auto;
+            margin-top: 10px;
+            width: 80%;
+           
+            #your-message {
+                
+                
+                
+                
+            }
+            
+        }
+        
+        input {
+            
+            width: 100%;
+            padding: 12px;
+            border-radius: 25px;
+            border: none;
+
+            
+        }
+        
+       
+
+    }
+
 }
