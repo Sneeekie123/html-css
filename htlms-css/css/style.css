@@ -582,6 +582,7 @@ header .menu .main-menu .btn-login {
 .why-choose-us .container .headline .image-text h4 {
   font-size: 22px;
   font-weight: 700;
+  margin-left: 15px;
 }
 .why-choose-us .container .headline .image-text h4 p {
   font-family: "Inter";

@@ -77,8 +77,9 @@ html, body {
 
 header {
     background-color: #F0EFE9;
-    padding: 16px;
-    
+    padding: 16 16 16 0px;
+    position: relative;
+    z-index: 0;   
 
     .container {
         display: flex;
@@ -165,6 +166,7 @@ header {
                 justify-content: space-between;
                 align-items: center;
                 padding-top: 10px;
+                
 
                 nav {
                     a {
@@ -173,6 +175,7 @@ header {
                         text-decoration: none;
                         margin-right: 35px;
                         position: relative;
+                        font-size: 16px;
 
                         &.active {
                             font-weight: 500;
@@ -199,4 +202,113 @@ header {
                 }
             }
         }
+
+    .intro {
+        
+        display: flex;
+        justify-content: center;
+        
+        .links {
+            padding-top: 100px;
+            padding-bottom: 20px;
+
+            a {
+                
+                display: inline-block;
+                color: #191919;
+                text-decoration: none;
+                margin: 7px;
+                position: relative;
+                
+
+                &.active {
+                    font-weight: 500;
+                }
+
+                &.active::after,
+
+                &:hover::after {
+                    content: "";
+                    position: absolute;
+                    font-weight: 500;
+                    height: 2px;
+                    width: 15px;
+                    left: 50%;
+                    bottom: -3px;
+                    transform: translate((calc(50% - 15px)));
+                }                       
+            }
+           
+            
+
+            
+        }
+       
+    } 
+    
+    .connect {
+        display: flex;
+        justify-content: center;
+        padding-bottom: 100px;
+        
+        h1 {
+            z-index: 1;
+         
+        }
+
+        .background-lines {
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            z-index: 0;   
+            display: block;
+        }
+    
+
+        
+    }
+    
+
+}
+
+.call-sites {
+    .container {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 110px;
+
+        .icons {
+            margin-left: 60px;
+            display: block;
+        }
+
+        .text-information {
+            margin-left: 25px;
+        }
+        
+        .visit-us {
+            justify-content: start;
+            border: 1px solid #F0EFE9;
+            width: 420px;
+            padding-top: 45px;
+
+            
+            
+        }
+
+        .call-us {
+            justify-content: start;
+            border: 1px solid #F0EFE9;
+            width: 420px;
+            padding-top: 45px;
+        }
+
+        .email-us {
+            justify-content: start;
+            border: 1px solid #F0EFE9;
+            width: 420px;
+            padding-top: 45px;
+        }
+
+    }
 }
