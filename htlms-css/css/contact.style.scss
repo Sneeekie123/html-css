@@ -283,6 +283,10 @@ header {
         margin-top: 110px;
         padding: 0px;
         
+        display: none;
+        @media (min-width: 992px){
+            display: flex;
+        }        
 
         .icons {
             margin-left: 60px;
@@ -399,7 +403,13 @@ header {
     position: relative;
     z-index: 0;
     border-bottom: 1px solid #444443;
+
+    display: none;
     
+    @media (min-width: 768px){
+        display: flex;
+        
+    }       
 
     .wavy-lines-footer {
         position: absolute;
@@ -417,6 +427,7 @@ header {
 
         a {
             
+            
             display: block;
             font-family: 'Inter', sans-serif;
             font-size: 16px;
@@ -424,6 +435,8 @@ header {
             text-decoration: none;
             color: #ffffff;
             margin-bottom: 10px;
+
+           
 
             &:hover {
                 text-decoration: underline;
@@ -455,14 +468,12 @@ header {
             width: 15%;
             margin-left: 20px;
 
-           
         }
 
         .help {
             
             width: 15%;
             margin-left: 20px;
-   
 
         }
 
@@ -486,6 +497,8 @@ header {
 .icons-and-copyright {
     background-color: #0E1021;
     color: #ffffff;
+
+    
     
     .copyright {
         display: flex;

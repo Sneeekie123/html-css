@@ -228,6 +228,12 @@ header .connect .background-lines {
   justify-content: center;
   margin-top: 110px;
   padding: 0px;
+  display: none;
+}
+@media (min-width: 992px) {
+  .call-sites .container {
+    display: flex;
+  }
 }
 .call-sites .container .icons {
   margin-left: 60px;
@@ -307,6 +313,12 @@ header .connect .background-lines {
   position: relative;
   z-index: 0;
   border-bottom: 1px solid #444443;
+  display: none;
+}
+@media (min-width: 768px) {
+  .footer {
+    display: flex;
+  }
 }
 .footer .wavy-lines-footer {
   position: absolute;
@@ -381,4 +393,4 @@ header .connect .background-lines {
 }
 .icons-and-copyright a:hover {
   color: #7c7c7c;
-}/*# sourceMappingURL=contact.style.css.map */
+}
