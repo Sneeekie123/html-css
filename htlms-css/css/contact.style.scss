@@ -88,6 +88,42 @@ header {
         gap: 70px;
         padding: 16px;
 
+        .dropdown {
+
+            ul {     
+                padding:0;     
+                margin:0    
+            }    
+            a {    
+                display:block;    
+                text-decoration: none;    
+            }    
+            li {    
+                display:block;     
+               
+            }    
+    
+            li ul {    
+                display:none;     
+                position:absolute;     
+                z-index:1    
+            }    
+            li:hover ul {    
+                display:block;    
+            }    
+                  
+            #menu a {    
+                color:#000000;     
+                padding:10px 15px 10px 15px;  
+                &:hover {
+                    color: #7c7c7c;
+                    text-decoration: underline;
+                    
+                }  
+            }    
+         
+        }
+
         .menu-bars {
             font-size: 25px;
             border: none;

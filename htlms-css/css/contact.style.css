@@ -81,6 +81,33 @@ header .container {
   gap: 70px;
   padding: 16px;
 }
+header .container .dropdown ul {
+  padding: 0;
+  margin: 0;
+}
+header .container .dropdown a {
+  display: block;
+  text-decoration: none;
+}
+header .container .dropdown li {
+  display: block;
+}
+header .container .dropdown li ul {
+  display: none;
+  position: absolute;
+  z-index: 1;
+}
+header .container .dropdown li:hover ul {
+  display: block;
+}
+header .container .dropdown #menu a {
+  color: #000000;
+  padding: 10px 15px 10px 15px;
+}
+header .container .dropdown #menu a:hover {
+  color: #7c7c7c;
+  text-decoration: underline;
+}
 header .container .menu-bars {
   font-size: 25px;
   border: none;
