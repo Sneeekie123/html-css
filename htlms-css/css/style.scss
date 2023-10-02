@@ -329,6 +329,7 @@ header {
 
 .fetures {
     border: 2px solid #F0EFE9;
+    margin-top: 60px;
     
     @media (min-width: 992px) {
         margin-right: 20px;
@@ -1336,13 +1337,42 @@ header {
 }
 
 .footer {
-    background-color: #0E1021  ;
-    padding-top: 100px;
-    padding-bottom: 90px;
+
     position: relative;
     z-index: 0;
-    border-bottom: 1px solid #444443;
+
+    background-color: #0E1021  ;
+    padding-bottom: 20px;
+
+    color: #ffffff;
+
+    h3 {
+        @media (max-width: 767px) {
+        text-decoration: underline;
+        margin-top: 20px;
+        }
+        
+    }
+
+    a {
+                
+                
+        display: block;
+        font-family: 'Inter', sans-serif;
+        font-size: 16px;
+        font-weight: 500;
+        text-decoration: none;
+        color: #ffffff;
+        margin-bottom: 10px;
+
     
+
+        &:hover {
+            text-decoration: underline;
+            color: #DAD9D3;
+        }      
+
+    }
 
     .wavy-lines-footer {
         position: absolute;
@@ -1352,78 +1382,78 @@ header {
         background-color: transparent;
     }
 
-    .footer-container {
+    
+
+    @media (min-width: 768px){
         display: flex;
-        justify-content: space-evenly;
-        color: #ffffff;
+
+
+        background-color: #0E1021  ;
+        padding-top: 100px;
+        padding-bottom: 90px;
+        position: relative;
+        z-index: 0;
+        border-bottom: 1px solid #444443;
+
         
 
-        a {
+        
+
+        .footer-container {
+            display: flex;
+            justify-content: space-evenly;
             
-            display: block;
-            font-family: 'Inter', sans-serif;
-            font-size: 16px;
-            font-weight: 500;
-            text-decoration: none;
-            color: #ffffff;
-            margin-bottom: 10px;
-
-            &:hover {
-                text-decoration: underline;
-                color: #DAD9D3;
-            }      
-
-        }
-
-        h3 {
-            font-family: 'DM Sans', sans-serif;
-            font-size: 22px;
-            font-weight: 700;
-            margin-bottom: 40px;
-            margin-top: 7px;
-        }
-
-        .crito {
             
-            width: 40%;
-            p {
-                margin-right: 20%;
-                margin-top: 30px;
+
+ 
+
+            h3 {
+                font-family: 'DM Sans', sans-serif;
+                font-size: 22px;
+                font-weight: 700;
+                margin-bottom: 40px;
+                margin-top: 7px;
+            }
+
+            .crito {
+                
+                width: 40%;
+                p {
+                    margin-right: 20%;
+                    margin-top: 30px;
+                }
+            }
+        
+
+            .company {
+                
+                width: 15%;
+                margin-left: 20px;
+
+            }
+
+            .help {
+                
+                width: 15%;
+                margin-left: 20px;
+
+            }
+
+            .resources {
+                
+                width: 15%;
+                margin-left: 20px;
+        
+            }
+
+            .link {
+                
+                width: 15%;
+                margin-left: 20px;
+                
             }
         }
-       
-
-        .company {
-            
-            width: 15%;
-            margin-left: 20px;
-
-           
-        }
-
-        .help {
-            
-            width: 15%;
-            margin-left: 20px;
-   
-
-        }
-
-        .resources {
-            
-            width: 15%;
-            margin-left: 20px;
-       
-        }
-
-        .link {
-            
-            width: 15%;
-            margin-left: 20px;
-            
-        }
-    }
-
+    }     
 }
 
 .icons-and-copyright {
