@@ -81,32 +81,38 @@ header .container {
   gap: 70px;
   padding: 16px;
 }
-header .container .dropdown ul {
-  padding: 0;
-  margin: 0;
+header .container .dropbtn {
+  padding: 16px;
+  font-size: 16px;
+  border: none;
 }
-header .container .dropdown a {
-  display: block;
-  text-decoration: none;
+header .container .dropbtn i {
+  color: #000000;
 }
-header .container .dropdown li {
-  display: block;
+header .container .dropdown {
+  position: relative;
+  display: inline-block;
 }
-header .container .dropdown li ul {
+header .container .dropdown-content {
   display: none;
   position: absolute;
+  background-color: #DAD9D3;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
+  right: 1px;
 }
-header .container .dropdown li:hover ul {
+header .container .dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
   display: block;
 }
-header .container .dropdown #menu a {
-  color: #000000;
-  padding: 10px 15px 10px 15px;
-}
-header .container .dropdown #menu a:hover {
-  color: #7c7c7c;
+header .container .dropdown-content a:hover {
   text-decoration: underline;
+}
+header .container .dropdown:hover .dropdown-content {
+  display: block;
 }
 header .container .menu-bars {
   font-size: 25px;

@@ -124,6 +124,40 @@ header .container {
   justify-content: space-between;
   gap: 70px;
 }
+header .container .dropbtn {
+  color: #000000;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+header .container .dropbtn i {
+  color: #000000;
+}
+header .container .dropdown {
+  position: relative;
+  display: inline-block;
+}
+header .container .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #DAD9D3;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  right: 1px;
+}
+header .container .dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+header .container .dropdown-content a:hover {
+  text-decoration: underline;
+}
+header .container .dropdown:hover .dropdown-content {
+  display: block;
+}
 header .container .menu-bars {
   font-size: 25px;
   border: none;
@@ -339,6 +373,12 @@ header .menu .main-menu .btn-login {
 }
 .about-company .container .samantha {
   position: relative;
+  display: none;
+}
+@media (min-width: 1200px) {
+  .about-company .container .samantha {
+    display: block;
+  }
 }
 .about-company .container .samantha .samantha-blue {
   border: 1px solid black;
@@ -364,8 +404,10 @@ header .menu .main-menu .btn-login {
   font-size: 16px;
   margin-left: 25px;
 }
-.about-company .container .about {
-  margin-left: 200px;
+@media (min-width: 1200px) {
+  .about-company .container .about {
+    margin-left: 200px;
+  }
 }
 .about-company .container .about h3 {
   color: #F94D1C;
@@ -401,6 +443,12 @@ header .menu .main-menu .btn-login {
   height: 58px;
   text-align: center;
   padding: 16px;
+  margin-bottom: 60px;
+}
+@media (min-width: 1200px) {
+  .about-company .container .about .btn-round {
+    margin-bottom: 0px;
+  }
 }
 .about-company .container .about .btn-round:hover {
   background-color: #191919;
@@ -410,8 +458,14 @@ header .menu .main-menu .btn-login {
 
 .our-services {
   background-color: #F0EFE9;
-  padding: 120px;
+  padding: 60px;
+  z-index: auto;
   position: relative;
+}
+@media (min-width: 700px) {
+  .our-services {
+    padding: 120px;
+  }
 }
 .our-services .headline .top-headline h3 {
   font-family: "Inter";
@@ -461,7 +515,7 @@ header .menu .main-menu .btn-login {
   border: 2px solid black;
   background-color: #000000;
   font-weight: 700;
-  width: 15%;
+  width: 39px;
 }
 .our-services .headline .content-boxes .business-box {
   background-color: #ffffff;
@@ -515,11 +569,15 @@ header .menu .main-menu .btn-login {
   display: flex;
   justify-content: center;
 }
+.our-services .headline .browse .browse-services {
+  z-index: 2;
+}
 .our-services .headline .wavy-lines-middle {
   position: absolute;
   bottom: 50px;
   right: 0;
   bottom: 0;
+  z-index: 1;
 }
 
 .why-choose-us {
@@ -527,22 +585,37 @@ header .menu .main-menu .btn-login {
   position: relative;
 }
 .why-choose-us .gray-box {
-  position: absolute;
-  display: inline-flex;
-  width: 70%;
-  height: 425px;
-  background-color: #F0EFE9;
-  z-index: 1;
-  bottom: 0;
-  right: 0;
+  display: none;
+}
+@media (min-width: 1400px) {
+  .why-choose-us .gray-box {
+    display: block;
+    position: absolute;
+    display: inline-flex;
+    width: 70%;
+    height: 425px;
+    background-color: #F0EFE9;
+    z-index: 1;
+    bottom: 0;
+    right: 0;
+  }
 }
 .why-choose-us .parent {
-  z-index: 2;
-  margin-top: 60px;
-  margin-left: auto;
+  display: none;
 }
-.why-choose-us .parent .two-ladies {
-  display: block;
+@media (min-width: 1200px) {
+  .why-choose-us .parent {
+    display: block;
+    margin-top: 30%;
+  }
+}
+@media (min-width: 1400px) {
+  .why-choose-us .parent {
+    display: block;
+    z-index: 2;
+    margin-top: 60px;
+    margin-left: auto;
+  }
 }
 .why-choose-us .container {
   display: flex;

@@ -140,6 +140,51 @@ header {
         justify-content: space-between;
         gap: 70px;
 
+       
+        .dropbtn {
+            
+            color: #000000;
+            padding: 16px;
+            font-size: 16px;
+            border: none;
+
+            i {
+                color: #000000;
+            }
+        }
+        
+        
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+        
+        
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #DAD9D3;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+            right: 1px;
+        }
+        
+       
+        .dropdown-content a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+        
+        .dropdown-content a:hover { text-decoration: underline;}
+    
+        .dropdown:hover .dropdown-content {display: block;}
+        
+        
+        
+
         .menu-bars {
             font-size: 25px;
             border: none;
@@ -401,10 +446,17 @@ header {
     .container {
         display: flex;
         margin-top: 110px;
+        
 
         .samantha {
             position: relative;
-           
+            
+            display: none;
+
+
+            @media (min-width: 1200px) {
+                display: block;
+            }
             
 
             .samantha-blue{
@@ -444,7 +496,12 @@ header {
 
         .about {
 
-            margin-left: 200px;
+
+            @media (min-width: 1200px) {
+                margin-left: 200px;
+                
+            }
+           
             
             h3 {
                 color: #F94D1C;
@@ -490,6 +547,11 @@ header {
                 height: 58px;
                 text-align: center;
                 padding: 16px;
+                margin-bottom: 60px;
+
+                @media (min-width: 1200px) {
+                    margin-bottom: 0px;
+                }
                 
                 
                 &:hover {
@@ -508,8 +570,12 @@ header {
 
 .our-services {
     background-color: #F0EFE9;
-    padding: 120px;
+    padding: 60px;
 
+    @media (min-width: 700px) {
+        padding: 120px;
+    }
+    z-index: auto;
     
     
     position: relative;
@@ -585,7 +651,7 @@ header {
                 border: 2px solid black;
                 background-color: #000000;
                 font-weight: 700;
-                width: 15%;
+                width: 39px;
             }
             
             .business-box {
@@ -662,7 +728,10 @@ header {
         .browse {
             display: flex;
             justify-content: center;
-
+            
+            .browse-services{
+                z-index: 2;
+            }
             
         }
 
@@ -671,6 +740,7 @@ header {
         bottom: 50px; 
         right: 0;
         bottom: 0;
+        z-index: 1;
         
     }
        
@@ -683,7 +753,11 @@ header {
     position: relative;
 
     .gray-box {
-        position: absolute;
+
+        display: none;
+        @media (min-width: 1400px) {
+            display: block;
+            position: absolute;
         display: inline-flex;  
         width: 70%;
         height: 425px;
@@ -691,16 +765,34 @@ header {
         z-index: 1;       
         bottom: 0;
         right: 0;
+            
+        }
+
+       
 
     }
 
     .parent {
-        z-index: 2;
+
+        display: none;
+        
+        @media (min-width: 1200px) {
+            display: block;
+            margin-top: 30%;
+        }
+        
+        
+        @media (min-width: 1400px) {
+            display: block;
+            z-index: 2;
         margin-top: 60px;
         margin-left: auto;
-        .two-ladies {
-            display: block;
-        }        
+            
+        }
+
+       
+        
+             
     }  
     .container {
         
