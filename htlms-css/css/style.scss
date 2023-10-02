@@ -353,16 +353,32 @@ header {
 
     .features-grid {
 
-    
+        display: grid;
+
+
+        grid-template-areas:
+          "menu menu menu menu "
+          'header header main main '
+          'header header main main '
+          "footer footer right right "
+          "footer footer right right ";
+       
+
+          
+
         .item1 { grid-area: header; }
         .item2 { grid-area: menu; }
         .item3 { grid-area: main; }
         .item4 { grid-area: right; }
         .item5 { grid-area: footer; }
         .item6 { grid-area: button; }
+
+        @media (min-width: 992px) {
+            display: grid;
+
+
     
-    
-        display: grid;
+        
         grid-template-areas:
           'menu menu  header main '
           'menu menu  header main '
@@ -375,10 +391,9 @@ header {
         padding-top: 60px;
         padding-bottom: 60px;
         border-spacing: 60px;    
-        display: none;
+        
     
-        @media (min-width: 992px) {
-            display: grid;
+        
         }
         
         div {
@@ -414,6 +429,13 @@ header {
     
         .item2 {
             padding-right: 20%;
+
+            .headline-grid {
+                @media (max-width: 992px) {
+                    padding: 0px;
+                }
+                
+            }
     
             
     

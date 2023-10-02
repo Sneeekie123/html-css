@@ -297,12 +297,7 @@ header .menu .main-menu .btn-login {
 }
 .fetures .features-grid {
   display: grid;
-  grid-template-areas: "menu menu  header main " "menu menu  header main " "menu menu  footer right " "menu menu  footer right ";
-  background-color: #ffffff;
-  padding-top: 60px;
-  padding-bottom: 60px;
-  border-spacing: 60px;
-  display: none;
+  grid-template-areas: "menu menu menu menu " "header header main main " "header header main main " "footer footer right right " "footer footer right right ";
 }
 .fetures .features-grid .item1 {
   grid-area: header;
@@ -325,6 +320,11 @@ header .menu .main-menu .btn-login {
 @media (min-width: 992px) {
   .fetures .features-grid {
     display: grid;
+    grid-template-areas: "menu menu  header main " "menu menu  header main " "menu menu  footer right " "menu menu  footer right ";
+    background-color: #ffffff;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    border-spacing: 60px;
   }
 }
 .fetures .features-grid div {
@@ -351,6 +351,11 @@ header .menu .main-menu .btn-login {
 }
 .fetures .features-grid .item2 {
   padding-right: 20%;
+}
+@media (max-width: 992px) {
+  .fetures .features-grid .item2 .headline-grid {
+    padding: 0px;
+  }
 }
 .fetures .features-grid .item2 h4 {
   font-family: "Inter";
