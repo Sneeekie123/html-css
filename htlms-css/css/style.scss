@@ -599,9 +599,8 @@ header {
         padding: 120px;
     }
     z-index: auto;
-    
-    
     position: relative;
+
     .headline {
         
         .top-headline {
@@ -634,6 +633,13 @@ header {
         }
 
         .content-boxes {
+
+            @media (min-width: 792px) {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+
+                
+            }
             
             @media (min-width: 1385px) {
                 display: flex;
@@ -1086,6 +1092,30 @@ header {
         .personell-pictures {
             display: flex;
             justify-content: space-between;
+
+            #mark {
+                display: none;
+                @media (min-width: 728px) {
+                    display: block;
+                }
+            }
+
+            #kimberly {
+                display: none;
+                @media (min-width: 992px) {
+                    display: block;
+                }
+            }
+            
+            
+            #justin {
+                display: none;
+                @media (min-width: 1368px) {
+                    display: block;
+                }
+
+            }
+         
 
             .first-last-name {
                 margin-top: 30px;
