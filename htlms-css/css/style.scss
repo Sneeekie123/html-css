@@ -1072,11 +1072,41 @@ header {
             }
 
             h2 {
-                display: flex;
-                justify-content: space-between;
-                font-size: 45px;
-                font-weight: 700;
-                margin-bottom: 100px;
+
+        
+                @media (min-width: 440px) {
+                    display: flex;
+                    justify-content: space-between;
+                }
+
+
+                .btn-yellow {
+                    white-space: nowrap;
+                    margin-top: 10px;
+                    margin-bottom: 10px;
+
+                    @media (min-width: 438) {
+                        margin-top: 0px;
+                        margin-bottom: 0px;
+                    }
+                }
+
+                
+                
+
+                @media (min-width: 728px) {
+                    display: flex;
+                    justify-content: space-between;
+                }
+                
+
+                @media (min-width: 992px) {
+                    display: flex;
+                    font-size: 45px;
+                    font-weight: 700;
+                    margin-bottom: 100px;
+                }
+                
 
                 .btn-yellow {
 
@@ -1091,11 +1121,23 @@ header {
 
         .personell-pictures {
             display: flex;
-            justify-content: space-between;
+
+            @media (min-width: 768px) {
+                justify-content: space-between;
+            }
+            
+            
+                justify-content: center;
+                align-items: center;
+            
+
+            #kristine {
+               
+            }
 
             #mark {
                 display: none;
-                @media (min-width: 728px) {
+                @media (min-width: 620px) {
                     display: block;
                 }
             }
@@ -1159,6 +1201,23 @@ header {
                 margin-left: 12%;
             
             }
+
+
+            #amanda {
+                display: none;
+                @media (min-width: 768px) {
+                    display: block;
+                }
+            }
+
+            #jack {
+                display: none;
+                @media (min-width: 1200px) {
+                    display: block;
+                }
+            }
+
+            
            
 
             .red-headline {
@@ -1256,14 +1315,19 @@ header {
         }
         
         h2 {
-            display: flex;
+            @media (min-width: 768px) {
+                display: flex;
             justify-content: space-between;
+            }
+            
             font-size: 45px;
             font-weight: 700;
             
             .browse-services {
                 background-color: #ffffff;
-
+                margin-top: 0;
+                margin-bottom: 30px;
+                white-space: nowrap;
             }
 
             
@@ -1272,7 +1336,10 @@ header {
 
     .articles {
         display: flex;
-        justify-content: space-between;
+        justify-content: space-evenly;
+        @media (min-width: 1900px) {
+            justify-content: space-between;
+        }
 
         h4 {
             font-size: 22px;
@@ -1286,14 +1353,26 @@ header {
         }
 
         .artice1 {
+            margin-top: 20px;
+            @media (min-width: 992px) {
+               margin-top: 0;
+            }
             width: 420px;
         }
         .artice2 {
             width: 420px;
+            display: none;
+            @media (min-width: 992px) {
+                display: block;
+            }
         }
 
         .artice3 {
             width: 420px;
+            display: none;
+            @media (min-width: 1400px) {
+                display: block;
+            }
         }
 
 
@@ -1312,7 +1391,7 @@ header {
 
 
 .newsletter {
-    display: none;
+    
 
     @media (min-width: 768px) {
         display: block;
@@ -1335,7 +1414,11 @@ header {
   
     
     .container {
-        display: flex;
+
+        @media (min-width: 768px) {
+            display: flex;
+        }
+        
         justify-content: space-between;
         align-items: center;
         

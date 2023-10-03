@@ -823,24 +823,54 @@ header .menu .main-menu .btn-login {
   color: #F94D1C;
   margin-bottom: 25px;
 }
-.meet-our-team .background-yellow .experience-team h2 {
-  display: flex;
-  justify-content: space-between;
-  font-size: 45px;
-  font-weight: 700;
-  margin-bottom: 100px;
+@media (min-width: 440px) {
+  .meet-our-team .background-yellow .experience-team h2 {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+.meet-our-team .background-yellow .experience-team h2 .btn-yellow {
+  white-space: nowrap;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+@media (min-width: 438) {
+  .meet-our-team .background-yellow .experience-team h2 .btn-yellow {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+}
+@media (min-width: 728px) {
+  .meet-our-team .background-yellow .experience-team h2 {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+@media (min-width: 992px) {
+  .meet-our-team .background-yellow .experience-team h2 {
+    display: flex;
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 100px;
+  }
 }
 .meet-our-team .background-yellow .experience-team h2 .btn-yellow {
   border: 1px solid #191919;
 }
 .meet-our-team .background-yellow .personell-pictures {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
+}
+@media (min-width: 768px) {
+  .meet-our-team .background-yellow .personell-pictures {
+    justify-content: space-between;
+  }
 }
 .meet-our-team .background-yellow .personell-pictures #mark {
   display: none;
 }
-@media (min-width: 728px) {
+@media (min-width: 620px) {
   .meet-our-team .background-yellow .personell-pictures #mark {
     display: block;
   }
@@ -895,6 +925,22 @@ header .menu .main-menu .btn-login {
   .meet-our-team .background-yellow .testimonial {
     margin-right: 12%;
     margin-left: 12%;
+  }
+}
+.meet-our-team .background-yellow .testimonial #amanda {
+  display: none;
+}
+@media (min-width: 768px) {
+  .meet-our-team .background-yellow .testimonial #amanda {
+    display: block;
+  }
+}
+.meet-our-team .background-yellow .testimonial #jack {
+  display: none;
+}
+@media (min-width: 1200px) {
+  .meet-our-team .background-yellow .testimonial #jack {
+    display: block;
   }
 }
 .meet-our-team .background-yellow .testimonial .red-headline {
@@ -956,17 +1002,29 @@ header .menu .main-menu .btn-login {
   margin-top: 125px;
 }
 .article-and-news .headline h2 {
-  display: flex;
-  justify-content: space-between;
   font-size: 45px;
   font-weight: 700;
 }
+@media (min-width: 768px) {
+  .article-and-news .headline h2 {
+    display: flex;
+    justify-content: space-between;
+  }
+}
 .article-and-news .headline h2 .browse-services {
   background-color: #ffffff;
+  margin-top: 0;
+  margin-bottom: 30px;
+  white-space: nowrap;
 }
 .article-and-news .articles {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
+}
+@media (min-width: 1900px) {
+  .article-and-news .articles {
+    justify-content: space-between;
+  }
 }
 .article-and-news .articles h4 {
   font-size: 22px;
@@ -977,13 +1035,31 @@ header .menu .main-menu .btn-login {
   margin-top: 30px;
 }
 .article-and-news .articles .artice1 {
+  margin-top: 20px;
   width: 420px;
+}
+@media (min-width: 992px) {
+  .article-and-news .articles .artice1 {
+    margin-top: 0;
+  }
 }
 .article-and-news .articles .artice2 {
   width: 420px;
+  display: none;
+}
+@media (min-width: 992px) {
+  .article-and-news .articles .artice2 {
+    display: block;
+  }
 }
 .article-and-news .articles .artice3 {
   width: 420px;
+  display: none;
+}
+@media (min-width: 1400px) {
+  .article-and-news .articles .artice3 {
+    display: block;
+  }
 }
 .article-and-news .dots {
   display: flex;
@@ -993,7 +1069,6 @@ header .menu .main-menu .btn-login {
 }
 
 .newsletter {
-  display: none;
   position: relative;
   background-color: #F0EFE9;
   padding-top: 80px;
@@ -1012,9 +1087,13 @@ header .menu .main-menu .btn-login {
   z-index: -1;
 }
 .newsletter .container {
-  display: flex;
   justify-content: space-between;
   align-items: center;
+}
+@media (min-width: 768px) {
+  .newsletter .container {
+    display: flex;
+  }
 }
 .newsletter .container h2 {
   font-family: "DM Sans", sans-serif;
@@ -1129,4 +1208,4 @@ header .menu .main-menu .btn-login {
 }
 .icons-and-copyright a:hover {
   color: #7c7c7c;
-}/*# sourceMappingURL=style.css.map */
+}
