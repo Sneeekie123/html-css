@@ -622,13 +622,8 @@ header {
                 @media (min-width: 1550px) {
                     margin-right: 60%;
                 }
-
-               
         
             }
-
-
-           
 
         }
 
@@ -647,11 +642,9 @@ header {
                 gap: 30px;    
             }
          
-            
             margin-top: 20px;
             gap: 30px;
 
-            
             .circle-arrow {
                 border: none;
                
@@ -663,7 +656,6 @@ header {
 
 
                 font-size: 45px;
-                
                 background-color: transparent;
 
                 &:hover {
@@ -689,10 +681,6 @@ header {
                 border-width: 30px;
                 margin-top: 20px;
 
-                
-
-
-                
                 &:hover {
                     background-color: #F9D783;
                     border: 1px solid #F9D783;
@@ -749,9 +737,6 @@ header {
                     margin-top: 20px;
                 }  
             }
-
-        
-        
         }
 
         .browse {
@@ -761,8 +746,8 @@ header {
             .browse-services{
                 z-index: 2;
             }
-            
         }
+    }
 
     .wavy-lines-middle{
         position: absolute;
@@ -773,7 +758,6 @@ header {
         
     }
        
-    }
 
 }
 
@@ -796,9 +780,6 @@ header {
         right: 0;
             
         }
-
-       
-
     }
 
     .parent {
@@ -818,9 +799,6 @@ header {
         margin-left: auto;
             
         }
-
-       
-        
              
     }  
     .container {
@@ -1323,9 +1301,16 @@ header {
                 margin-top: 0;
                 margin-bottom: 30px;
                 white-space: nowrap;
-            }
 
-            
+                &:hover {
+                    background-color: #191919;
+                    border: 1px solid #191919;
+                    color: #ffffff;
+                    
+                    
+                }  
+            }
+  
         }
     }
 

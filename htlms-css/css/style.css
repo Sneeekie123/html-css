@@ -584,7 +584,7 @@ header .menu .main-menu .btn-login {
 .our-services .headline .browse .browse-services {
   z-index: 2;
 }
-.our-services .headline .wavy-lines-middle {
+.our-services .wavy-lines-middle {
   position: absolute;
   bottom: 50px;
   right: 0;
@@ -1016,6 +1016,11 @@ header .menu .main-menu .btn-login {
   margin-top: 0;
   margin-bottom: 30px;
   white-space: nowrap;
+}
+.article-and-news .headline h2 .browse-services:hover {
+  background-color: #191919;
+  border: 1px solid #191919;
+  color: #ffffff;
 }
 .article-and-news .articles {
   display: flex;
