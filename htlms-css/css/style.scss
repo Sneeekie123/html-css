@@ -124,8 +124,7 @@ html, body {
             color: #ffffff;
             
             
-        }  
-        
+        }   
 }
 
 
@@ -181,8 +180,6 @@ header {
         .dropdown-content a:hover { text-decoration: underline;}
     
         .dropdown:hover .dropdown-content {display: block;}
-        
-        
         
 
         .menu-bars {
@@ -319,8 +316,6 @@ header {
             margin-left: 40px;
             margin-right: 40px;
             }
-          
-
         }
     }
 }
@@ -457,9 +452,7 @@ header {
                 border: 1px solid #000000;
                 margin-right: 40px;            
             }   
-    
         }
-    
     }    
 }
   
@@ -512,7 +505,6 @@ header {
                     font-size: 16px;
                     margin-left: 25px;
                 }
-
             }
         }
 
@@ -583,11 +575,8 @@ header {
                     color: #F0EFE9;
                 }
             }
-                
-            
         }
     }
-
 }
 
 
@@ -622,9 +611,7 @@ header {
                 @media (min-width: 1550px) {
                     margin-right: 60%;
                 }
-        
             }
-
         }
 
         .content-boxes {
@@ -663,8 +650,7 @@ header {
                     border: none;
                     color: #F0EFE9;
                     
-                }
-                     
+                }      
             }
             
 
@@ -688,7 +674,6 @@ header {
                     border-width: 30px;
                     margin-top: 20px;
                 }
-              
             }
 
             .startup-box {
@@ -704,7 +689,6 @@ header {
                     border-width: 30px;
                     margin-top: 20px;
                 }
-               
             }
 
             .financial-box {
@@ -720,7 +704,6 @@ header {
                     border-width: 30px;
                     margin-top: 20px;
                 }
-                
             }
 
             .risk-box {
@@ -754,11 +737,8 @@ header {
         bottom: 50px; 
         right: 0;
         bottom: 0;
-        z-index: 1;
-        
+        z-index: 1;   
     }
-       
-
 }
 
 .why-choose-us {
@@ -790,7 +770,6 @@ header {
             display: block;
             margin-top: 30%;
         }
-        
         
         @media (min-width: 1400px) {
             display: block;
@@ -930,11 +909,8 @@ header {
                 @media (min-width: 768px) {
                     margin-right: 10px;
                     display: inline-block;
-                }
-                
-              
+                } 
             }
-
         }
 
         img {
@@ -944,21 +920,16 @@ header {
             @media (min-width: 1200px) {
                 display: block;
             }
-
         }
-
     }
-
 }
 
 
 .project-and-case {
     .container {
 
-
         .section-title {
             text-align: center;
-
         }
 
         .project-and-cases {
@@ -989,7 +960,6 @@ header {
                     padding-top: 35px;
                     padding-bottom: 16px;
                     border-bottom: 1px solid #DAD9D3;
-
                 }
 
                 .readmore {
@@ -1039,24 +1009,20 @@ header {
 
         .experience-team {
             
-            
             h3 {
                 font-family: 'Inter';
                 font-size: 18px;
                 color: #F94D1C;
                 margin-bottom: 25px;
                 
-
             }
 
             h2 {
 
-        
                 @media (min-width: 440px) {
                     display: flex;
                     justify-content: space-between;
                 }
-
 
                 .btn-yellow {
                     white-space: nowrap;
@@ -1069,15 +1035,11 @@ header {
                     }
                 }
 
-                
-                
-
                 @media (min-width: 728px) {
                     display: flex;
                     justify-content: space-between;
                 }
                 
-
                 @media (min-width: 992px) {
                     display: flex;
                     font-size: 45px;
@@ -1085,16 +1047,11 @@ header {
                     margin-bottom: 100px;
                 }
                 
-
                 .btn-yellow {
 
-                    border: 1px solid #191919;
-                    
+                    border: 1px solid #191919;   
                 }
-
-            }
-
-        
+            }        
         }
 
         .personell-pictures {
